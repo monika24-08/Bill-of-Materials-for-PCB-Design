@@ -58,11 +58,20 @@ During the product life, components may fail needing repair or upgrade. Here the
 •	Diagnostics — Expected voltages, signal values </br>
 
 # Circuit Diagram
-
-
-
+![WhatsApp Image 2025-08-21 at 13 55 08_cba7e6b0](https://github.com/user-attachments/assets/9fbd1b39-9888-4845-bd9d-4b2764d7f2d4)
 
 # Output
+
+
+| S.No | Quantity | Part No | Chip Value | Manufacturer Name | Footprint | Label     | Mounting Type | Package Type | Layer | Alternative Part | BOM Level | Phase |
+| ---- | -------- | ------- | ---------- | ----------------- | --------- | --------- | ------------- | ------------ | ----- | ---------------- | --------- | ----- |
+| 1    | 10       | R1–R10  | 10kΩ       | Yageo / Vishay    | 0603      | Resistor  | SMD           | Chip         | Top   | Any 10kΩ 0603    | L1        | Proto |
+| 2    | 5        | C1–C5   | 100nF      | Murata / TDK      | 0603      | Capacitor | SMD           | Chip         | Top   | Any 100nF 0603   | L1        | Proto |
+| 3    | 2        | U1, U2  | ATmega328P | Microchip         | TQFP-32   | MCU       | SMD           | IC Package   | Top   | STM32F030        | L2        | Proto |
+| 4    | 1        | D1      | 1N4148     | ON Semi           | SOD-123   | Diode     | SMD           | Package      | Top   | BAS16            | L2        | Proto |
+| 5    | 1        | U3      | LM7805     | Texas Instruments | TO-220    | Regulator | Through Hole  | Package      | Top   | AMS1117-5.0      | L3        | Proto |
+| 6    | 1        | J1      | USB-B      | Amphenol          | USB-B     | Connector | Through Hole  | Connector    | Edge  | Any USB-B        | L3        | Proto |
+
 
 
 
